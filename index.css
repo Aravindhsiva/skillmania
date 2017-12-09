@@ -1,0 +1,245 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+<!--Start--->
+.nav{
+    height: 7%;
+    float: left;
+    z-index: 10;
+}
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    margin-top: 10px;
+    float: left;
+}
+li:hover{
+    transition-duration: .4s;
+    border-bottom: 3px solid black;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    color:black;
+    background-color: #fff;}
+
+ul.topnav li a.active {background-color: deeppink;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+header{
+    height:900px;
+    background:url(code.jpg) no-repeat center;
+    background-size: cover;
+}
+nav.navbar.navbar-default{
+box-shadow: none;    
+}
+.practice{
+    margin-top: 200px;
+}
+<!----start over--->
+.work{
+    height: 900px;
+}
+.container-fluid img{
+    border: 2px solid black;
+    margin-top: 100px;
+}
+.work button:hover{
+    color:black;
+    background-color: white;
+    transition-duration: 01s;
+}
+.work button{
+    padding-right: 25px;
+    padding-left: 25px;
+    color:white;
+    margin-top: 30px;
+    font-size:25px;
+    border-radius:15%;
+    background:none;
+    border:3px solid #009AFF;
+}
+.work h1{
+    color:white;
+}
+.work a:hover{
+    text-decoration: none;
+}
+.container-fluid{
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.container-fluid img{
+    height: 250px;
+    width: 250px;
+}
+.col-lg-12 h2{
+    text-align:center;
+    font-size: 25px;
+}
+#me{
+    height: 900px;
+    background-image: url(me.png);
+    background-position: center;
+    background-size: cover;
+}
+#me h1{
+    margin-left: 10%;
+    color: white;
+    font-weight: bold;
+}
+.things{
+    background: #009aff;
+    height: 900px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.hobby{
+    background-color: white; 
+    height:auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 2px;
+    border-radius: 4%;
+    width: auto;
+}
+.hobby h2{
+    font-size: 30px;
+    color: #009aff;
+    margin-top:30px;
+    margin-bottom: -40px;
+}
+.hobby a{
+    text-decoration: none;
+}
+.things button{
+    padding: 10px;
+    font-size: 20px;
+    color:black;
+    border: 2px solid  #009aff;
+    margin-top: 10%;
+    background: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.things button:hover{
+    transition-duration: 0.5s;
+    color:white;
+    border: 2px solid #162431;
+    background:black;
+}
+.hobby img{
+    border: none;
+}
+.things h2{
+    text-align: center;
+    font-size: 30px;
+}
+.things h1{
+    font-size: 40px;
+}
+
+.hope{
+    height: 900px;
+    background-image: url(bay.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hope h1{
+    font-size:40px;
+}
+.hope h2{
+    font-size: 30px;
+}
+.hope button{
+    margin-left: 20%;
+    font-size: 30px;
+    background: none;
+    border: none;
+    border-radius: 3%;
+}
+.hope button:hover{
+    transition-duration: 1s;
+    color:white;
+    background-color: black;
+}
+.hope a{
+    color:white;
+}
+.info{
+    height: 900px;
+    background-image: url(cal.jpg)
+}
+span h1{
+    color: black;
+}
+span h2{
+    color: black;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.contact:hover{
+    color:black;
+    background-color: white;
+}
+.info img{
+    border: none;
+    margin-top: 28%;
+    height: 400px;
+    width: 400px;
+}
+#scroll {
+    border:2px solid black;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:blueviolet;
+    display:none;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius:60px;
+    text-indent: -9999;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:red;
