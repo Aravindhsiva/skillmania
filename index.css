@@ -48,7 +48,7 @@ ul.topnav li.right {float: right;}
     ul.topnav li {float: none;}
 }
 header{
-    height:700px;
+    height:900px;
     background:url(code.jpg) no-repeat center;
     background-size: cover;
 }
@@ -59,10 +59,10 @@ box-shadow: none;
     margin-top: 200px;
 }
 <!----start over--->
-.container section{
+.work{
     height: 700px;
 }
-.container-fluid img{
+.work img{
     border: 2px solid black;
     margin-top: 100px;
 }
@@ -102,7 +102,7 @@ box-shadow: none;
     font-size: 25px;
 }
 #me{
-    height: 700px;
+    height: 900px;
     background-image: url(me.png);
     opacity: 0.8;
     background-position: center;
