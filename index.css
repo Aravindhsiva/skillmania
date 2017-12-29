@@ -229,7 +229,7 @@ span h2:hover{
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:blueviolet;
+    background-color:#09aaff;
     display:none;
     -webkit-border-radius: 50%;
     -khtml-border-radius: 50%;
@@ -249,4 +249,6 @@ span h2:hover{
     border-bottom-color:#ffffff
 }
 #scroll:hover {
-    background-color:red;
+    transition-duration:2s;
+    background-color:black
+}
