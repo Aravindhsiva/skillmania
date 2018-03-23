@@ -66,6 +66,9 @@ box-shadow: none;
     border: 2px solid black;
     margin-top: 100px;
 }
+img.img-responsive.img-thumbnail:hover{
+    transform:scale(1.5);
+}
 .work button:hover{
     color:black;
     background-color: white;
